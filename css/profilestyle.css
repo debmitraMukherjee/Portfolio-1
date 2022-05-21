@@ -1,0 +1,172 @@
+body{
+  background-color:rebeccapurple;
+  color: yellowgreen;
+  
+}
+body h1{
+  text-align:left;
+  color:magenta;
+  padding-left:10px;
+}
+body h3{
+  color:#0088a9; 
+}
+
+
+#about h3{
+  text-align:left;
+  color: tomato;
+  padding-left:5px;
+  font-size: 30px;
+  
+}
+
+#contact{
+  font-size:20px;
+  text-align:left;
+  line-height: 2;
+  padding-bottom:0px;
+  padding-left:10px;
+  padding-right:10px;
+}
+hr{
+  margin:auto;
+  padding-bottom:40px;
+  padding-top:40px;
+  border-style: none;
+  border-top: 10px #9DBEB9;
+  width: 10%;
+}
+.about{
+  width:400px;
+}
+.container1{
+  text-align:left;
+  padding-top:30px;
+}
+.container1 h1{
+  color:palegreen;
+  font-size:40px;
+  text-align:center;
+}
+.container1 h4{
+  color:#EEEEEE;
+  font-size:20px;
+}
+.bottom-container{
+  color:#0088a9;
+  background-color:black;
+  text-align: right;
+  padding-top:20px;
+  padding-bottom: 5px;
+  line-height: 2;
+ 
+}
+.bottom-container a {
+  color: wheat;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.bottom-container img:hover{
+  background-color: #0088a9 ;
+  border-radius: 50%;
+}
+
+.footer-imgs{
+  width: 40px;
+  height: 40px;
+}
+#float-box1{
+  line-height: 2;
+  text-align:left;
+  padding-top:50px;
+  padding-left:30px;
+  padding-right:150px;
+  
+}
+#float-box2{
+  line-height: 2;
+  text-align:right;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left: 30px;
+  padding-right:150px;
+}
+
+
+
+
+#about{
+  text-align:left;
+  line-height: 2;
+  padding-bottom:40px;
+  padding-left: 10px;
+  font-size: 20px ;
+}
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 2;
+  padding: 0;
+}
+
+li, a{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  font-size: 30px ;
+  color: darkblue;
+  text-decoration: none;
+  text-align:right;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:25px 1%;
+  background-color: green;
+  
+}
+
+.navbar{
+  list-style: none;
+  text-align:right;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a{
+  transition: all 0.3s ease 0s;
+  text-align:right;
+}
+
+.navbar li a:hover{
+  color: #0088a9;
+  text-align:right;
+}
+/*
+.home{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home{
+  background-image: url('Images/Bg.png');
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+*/
